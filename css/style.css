@@ -741,10 +741,28 @@ div#accordion {
 		float: left;
 		margin-top: 24px;
 	}
+	.bg-person {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.5;
+}
 
 }
 
 @media(min-width: 251px) and (max-width: 419px){
+	.bg-person {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.5;
+}
 	.bg-person {
 		position: absolute;
 		width: 100%;
@@ -1016,6 +1034,15 @@ div#accordion {
 
 }
 @media(min-width: 420px) and (max-width: 575.99px){
+	.bg-person {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.5;
+}
 	.hero-area {
 		margin-top: 209px;
 		margin-bottom: 200px;
